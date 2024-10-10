@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Enlaces</title>
+
+    <link rel="stylesheet" href="CSS/estilo.css">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <main>
+        <header>
+            <div class="logo">
+                <img src="imagenes/logo 2.jpg" alt="Logo">
+            </div>
+        </header>
+        <nav>
+            <a href="index.html">HTML</a>
+            <a href="textohtml.html">Texto en HTML</a>
+            <a href="imagenes.html">Imágenes en HTML</a>
+            <a href="enlaces.html">Enlaces en HTML</a>
+            <a href="css.html">CSS</a>
+            <a href="prodise.html">Proceso de diseño</a>
+        </nav>
+        <section>
+            <div class="seccion-arriba">
+                <h1>Enlaces en HTML</h1>
+            </div>
+            <div class="seccion-izq">
+                <h2>Ideas principales</h2>
+                <div class="texto3">
+                    <p>¿Qué puede ser un enlace?</p>
+                    <p>Sintaxis</p>
+                    <p>Estados de enlace</p>
+                    <p>Links de imagen</p>
+                    <p>Atributo target</p>
+                    <p>Enlace por anclas</p>
+                </div>
+            </div>
+            <div class="seccion-der">
+                <h2>Apuntes</h2>
+                <div class="texto2">
+                    <p>
+                        Un enlace puede ser cualquier cosa, texto, imagen, video, botón, etc.
+                        Dentro de la sintaxis se encuentra la apertura de etiqueta "a", href define el destino del
+                        enlace, lo
+                        que se encuentra entre comillas es el destino o url, el texto es la parte visible y finalmente
+                        el
+                        cierre.
+                    </p>
+                    <p>
+                        Un enlace tiene diferentes estados, el no visitado esta subrayado en azul, el visitado está
+                        subrayado en
+                        morado y el activo está subrayado y en rojo. Esto se puede cambiar con CSS.
+                        Para poner un link en la imagen, dentro de la etiqueta "a" se pone la etiqueta img.
+                        El atributo target especifica dónde abrir el documento vinculado y puede tener los valores _self
+                        (predeterminado), _blank (se abre una nueva ventana o pestaña), _parent (lo abre en el marco
+                        primario),
+                        _top (cuerpo completo de la ventana).
+                    </p>
+                    <p>
+                        Las anclas sirven para ir a partes específicas de la página, se usa la dirección donde se
+                        encuentra la
+                        página y se agrega la id de la sección.
+                    </p>
+                </div>
+                <a href="imagenes/enlaces.jpg" target="_blank"><img src="imagenes/enlaces.jpg" alt="Estados de enlace"></a>
+            </div>
+            <div class="seccion-abajo">
+                <h2>Resumen</h2>
+                <p class="texto4">
+                    Se explicaron las propiedades del enlace, la sintaxis, cuáles son los estados de un enlace, las
+                    imágenes
+                    hechas link al igual que su atributo target y cómo enlazar partes específicas de una página
+                </p>
+            </div>
+        </section>
+    </main>
+</body>
+
+</html>
